@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+
+<body>
+
+<form name="myform" method="post" onsubmit="validateform()" >
+
+ first Name: <input type="text" name="firstName"><br/> <br>
+
+ last Name: <input type="text" name="lastName"><br/>
+
+<input type="submit" value="Login">
+
+</form>
+</body>
+<script>
+
+function validateform(){
+document.write("FullName: "+"</br>"+ document.myform.firstName.value+" "+document.myform.lastName.value);
+
+}
+</script>
+</html>
+
+
+

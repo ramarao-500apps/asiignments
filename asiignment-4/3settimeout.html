@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<body onload="startTime()">
+
+<h2>The setTimeout Method</h2>
+
+<p id="test"></p>
+
+<script>
+
+function startTime() 
+{
+ const date = new Date();
+
+ document.getElementById("test").innerHTML = date.toLocaleTimeString();
+
+ setTimeout(function() {startTime()}, 5000);
+
+}
+
+</script>
+
+</body>
+</html>

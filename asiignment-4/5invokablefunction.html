@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+
+<h2>Invokable Function</h2>
+
+<p id="test"></p>
+
+</body>
+
+<script>
+
+const myoffice = 
+{
+
+firstName:"Mantra",
+
+lastName: "technologies",
+
+fullName: function() 
+
+{
+return this.firstName + " " + this.lastName;
+}
+
+}
+
+document.getElementById("test").innerHTML=myoffice.fullName();
+
+</script>
+</html>

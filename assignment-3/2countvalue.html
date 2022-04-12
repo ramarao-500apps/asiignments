@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+
+<form name="myform" method="post" onsubmit="validateform()" >
+
+String: <input type="text" name="word" placeholder="text" required><br/> <br>
+
+<input type="submit" value="count">
+
+</form>
+
+<script>
+
+function validateform()
+
+{
+
+var data = document.myform.word.value;
+alert(data.length);
+
+}
+
+</script>
+</body>
+</html>

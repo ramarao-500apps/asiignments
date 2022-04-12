@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+
+<body>
+
+<p id="test"></p>
+
+<script>
+
+var array= [
+
+{"category1": [{ "name": "cat1","description": "it is cat1","details": ["name", "category1", "age1", "contact"]}]}
+
+,{"category2":[{ "name": "cat2","description": "it is cat2","details": ["name2", "category2", "age2", "contact2"]}]}
+
+]
+
+array1="";
+
+array2="";
+
+function fun()
+
+{
+
+this.array1 = this.array[0].category1[0].details;
+
+this.array2 = this.array[1].category2[0].details;
+
+document.write(this.array1+"</br>"+this.array2);
+
+}
+
+fun();
+
+</script>
+</body>
+</html>
+
+
+
