@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+
+    <P> Questuin-1 </P>
+
+</head>
+
+<body>
+
+    <Script>
+
+        const circle = {
+            radius: 20, diameter() {
+                return this.radius * 2;
+            },
+            perimeter: () => 2 * Math.PI * this.radius,
+
+        };
+
+        document.write(circle.diameter()); //Output will be 40 As we are calling the fuction using objectname
+
+        document.write(circle.perimeter()); //output will be NAN
+
+    </Script>
+
+</body>
+
+</html>
