@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+
+</head>
+
+<body>
+
+    <script>
+
+        const a = [43, 45, 90, 180];
+
+        const doubled = a.reduce((total, amount) => {
+
+            total.push(amount * 2);
+
+            return total;
+
+        }, []);
+
+        document.write(a),
+
+            document.write("<br> ", doubled);
+
+    </script>
+
+</body>
+
+</html>
